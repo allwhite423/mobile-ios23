@@ -21,7 +21,63 @@ print("3 X 7 = \(3 * 7)")
 print("3 X 8 = \(3 * 8)")
 print("3 X 9 = \(3 * 9)")
 
+// step 1-3
+let multiplyByFour = 4
+var accNum = 1
+var printedValue = multiplyByFour * accNum
+print("4 X 1 = \(printedValue)")
+accNum += 1
+printedValue = multiplyByFour * accNum
+print("4 X 2 = \(printedValue)")
+accNum += 1
+printedValue = multiplyByFour * accNum
+print("4 X 3 = \(printedValue)")
+accNum += 1
+printedValue = multiplyByFour * accNum
+print("4 X 4 = \(printedValue)")
+accNum += 1
+printedValue = multiplyByFour * accNum
+print("4 X 5 = \(printedValue)")
+accNum += 1
+printedValue = multiplyByFour * accNum
+print("4 X 6 = \(printedValue)")
+accNum += 1
+printedValue = multiplyByFour * accNum
+print("4 X 7 = \(printedValue)")
+accNum += 1
+printedValue = multiplyByFour * accNum
+print("4 X 8 = \(printedValue)")
+accNum += 1
+printedValue = multiplyByFour * accNum
+print("4 X 9 = \(printedValue)")
 
-
+let multiplyByFive = 5
+accNum = 1
+printedValue = multiplyByFive * accNum
+print("5 X 1 = \(printedValue)")
+accNum += 1
+printedValue = multiplyByFive * accNum
+print("5 X 2 = \(printedValue)")
+accNum += 1
+printedValue = multiplyByFive * accNum
+print("5 X 3 = \(printedValue)")
+accNum += 1
+printedValue = multiplyByFive * accNum
+print("5 X 4 = \(printedValue)")
+accNum += 1
+printedValue = multiplyByFive * accNum
+print("5 X 5 = \(printedValue)")
+accNum += 1
+printedValue = multiplyByFive * accNum
+print("5 X 6 = \(printedValue)")
+accNum += 1
+printedValue = multiplyByFive * accNum
+print("5 X 7 = \(printedValue)")
+accNum += 1
+printedValue = multiplyByFive * accNum
+print("5 X 8 = \(printedValue)")
+accNum += 1
+printedValue = multiplyByFive * accNum
+print("5 X 9 = \(printedValue)")
 
 

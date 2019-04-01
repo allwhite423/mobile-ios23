@@ -103,3 +103,15 @@ for i in 1...9 {
         print()
     }
 }
+
+
+// step 1-6
+print("using array")
+var gugudan = [Int].init(repeating: 0, count: 9)
+for i in 0...gugudan.count-1{
+    gugudan[i] = 2 * (i+1)
+}
+for (index, step) in gugudan.enumerated() {
+    print("2 X \(index+1) = \(step)")
+}
+

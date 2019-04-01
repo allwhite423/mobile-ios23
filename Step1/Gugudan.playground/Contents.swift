@@ -93,4 +93,13 @@ for i in 1..<10 {
 }
 
 
-
+// step 1-5
+print("using loop")
+for i in 1...9 {
+    if i % 2 == 1 {
+        for j in 1..<10 {
+            print("\(i) X \(j) = \(i * j)")
+        }
+        print()
+    }
+}

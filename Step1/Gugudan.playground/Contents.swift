@@ -1,4 +1,4 @@
-import UIKit
+import Foundation
 
 // step 1-2
 print("2 X 1 = \(2 * 1)")
@@ -79,5 +79,18 @@ print("5 X 8 = \(printedValue)")
 accNum += 1
 printedValue = multiplyByFive * accNum
 print("5 X 9 = \(printedValue)")
+
+// step 1-4
+
+var i = 1
+while(i < 10) {
+    print("6 X \(i) = \(6 * i)")
+    i += 1
+}
+
+for i in 1..<10 {
+    print("7 X \(i) = \(7 * i)")
+}
+
 
 

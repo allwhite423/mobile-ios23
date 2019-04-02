@@ -107,11 +107,20 @@ for i in 1...9 {
 
 // step 1-6
 print("using array")
-var gugudan = [Int].init(repeating: 0, count: 9)
-for i in 0...gugudan.count-1{
-    gugudan[i] = 2 * (i+1)
+
+func gugu(dan: Int) {
+    var gugudan = [Int].init(repeating: 0, count: 9)
+    for i in 0...gugudan.count-1{
+        gugudan[i] = dan * (i+1)
+    }
+    for (index, step) in gugudan.enumerated() {
+        print("\(dan) X \(index+1) = \(step)")
+    }
 }
-for (index, step) in gugudan.enumerated() {
-    print("2 X \(index+1) = \(step)")
+
+for i in 1...9 {
+    gugu(dan: i)
 }
+
+
 
